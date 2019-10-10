@@ -1,2 +1,110 @@
 body {
+  background-color: #f4f5f6; }
+
+.container {
+  max-width: 90%; }
+
+.no-border {
+  border: none !important; }
+
+.block-title {
+  text-transform: uppercase;
+  color: rgba(3, 3, 3, 0.4);
+  font-weight: bold; }
+
+.first-header-row {
   background-color: red; }
+
+header .row {
+  padding: 10px 0 10px 0; }
+
+.NewsWeekSVGLogo {
+  fill: white; }
+
+.header-date {
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  padding-left: 10%; }
+
+#right_arrow {
+  width: 9px;
+  fill: red; }
+
+.righ-header-section {
+  position: absolute;
+  bottom: 0;
+  right: 5%; }
+
+.header-sign-in-button {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 3vh; }
+
+.header-subscribe-button {
+  color: red;
+  text-decoration: none;
+  border: 1px solid white;
+  background-color: white;
+  font-weight: bolder;
+  padding: 5px;
+  text-transform: uppercase; }
+
+.main-navigation-bar {
+  border-bottom: 0.2px solid #d9d9d9;
+  background-color: white; }
+
+.main-navigation-bar li {
+  border-left: 1px solid #d9d9d9; }
+
+.main-navigation-bar a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem; }
+
+.main-navigation-bar a:hover {
+  color: red; }
+
+.special-item-in-header-navigation-bar {
+  padding-top: 1rem;
+  border-left: none !important; }
+
+.featured-stories-flex-container {
+  display: flex;
+  width: 30%; }
+
+.top-story-fle-container {
+  width: 40%;
+  border: 1px solid red; }
+
+.opinion-flex-container {
+  width: 30%;
+  border: 1px solid black; }
+
+.featured-story-title {
+  font-weight: bold;
+  color: #000;
+  font-size: 1.2rem; }
+
+.featured-story-title:hover {
+  color: #000;
+  text-decoration-color: red; }
+
+.featured-story-image {
+  width: 100%; }
+
+.wrap {
+  position: relative; }
+
+.category {
+  position: absolute;
+  bottom: 0;
+  background-color: #e8e7e8;
+  padding: 2%;
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold; }
+
+.featured-story-item {
+  margin-top: 1rem; }
