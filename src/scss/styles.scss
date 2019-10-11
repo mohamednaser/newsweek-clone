@@ -324,3 +324,32 @@ header .row {
 .cat {
   display: inline-block;
 }
+
+// Start editor-pick section
+
+.editor-pick-story-item {
+  margin-top: 1rem;
+  max-width: 22%;
+}
+
+.featured-slidshow-item {
+  margin-top: 1rem;
+  max-width: 30%;
+}
+
+.featured-slidshow-item-title {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png)
+    0 0 / contain no-repeat;
+  color: #e9212e;
+}
