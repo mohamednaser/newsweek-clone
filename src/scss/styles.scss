@@ -250,6 +250,77 @@ header .row {
   max-width: 40%;
   margin-right: 1vh;
 }
+
+.n-logo {
+  background-color: red;
+  padding: 1vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
+  display: inline-block;
+}
+
+.signup-button {
+  padding: 5%;
+  font-weight: bold;
+}
+
+.signup-link {
+  display: block;
+  width: 30%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  margin-left: 5%;
+  font-weight: bold;
+  padding: 1vh;
+}
+
+.update-prefrence {
+  padding: 2vh;
+  display: block;
+  text-decoration: none;
+  color: #333333;
+  font-weight: bold;
+}
+
+.sign-up-form {
+  background-color: #f4f5f6;
+}
 // end Top Stories >> more stories section
 
 // end Top Stories section
+
+// start in magazine section
+.in-the-magazine-title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1vh;
+  text-transform: uppercase;
+}
+
+.magazine-item {
+  width: 22%;
+  margin-top: 2vh;
+}
+
+.magazine-item-image {
+  width: 100%;
+}
+
+.mag-cat {
+  background-color: red;
+  padding: 0.5vh;
+  padding-right: 1vh;
+  font-weight: bold;
+  color: white;
+  margin: 1vh 1vh 1vh 0;
+  display: inline-block;
+}
+
+.cat {
+  display: inline-block;
+}
