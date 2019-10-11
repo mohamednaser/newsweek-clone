@@ -140,3 +140,21 @@ header .row {
   margin-top: 1rem;
 }
 // end main-stories-section
+
+// start Top Stories section
+
+.related {
+  display: block;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  font-weight: bold;
+  color: #000000;
+}
+
+// end Top Stories section
