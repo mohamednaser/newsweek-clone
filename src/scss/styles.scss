@@ -396,11 +396,12 @@ header .row {
 }
 
 .subscribe-section {
-  width: 58%;
+  width: 68%;
 }
 
 .subscribe-div {
   background-color: #f4f5f6;
+  height: 57vh;
 }
 
 .newsletter-cover-image {
@@ -421,6 +422,7 @@ header .row {
   font-size: 1rem;
   text-transform: none;
   font-weight: 100;
+  width: 70;
 }
 
 .lk-red {
@@ -432,7 +434,12 @@ header .row {
 }
 
 .newsletter-section {
-  width: 40%;
+  width: 30%;
+}
+
+.news-letter-flex-container {
+  border: 1px solid #ebebeb;
+  height: 85%;
 }
 
 .wrapper {
@@ -445,4 +452,109 @@ header .row {
   width: 30%;
   background: url(https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf)
     center center / cover no-repeat;
+}
+
+// Footer
+footer {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 5vh;
+  margin-top: 5vh;
+}
+
+.right-social-icons {
+  float: right;
+}
+
+.social-icons-list {
+  display: flex;
+}
+
+.social-icons-list li {
+  padding-left: 2vh;
+  color: #666;
+}
+
+.social-icons-list i {
+  font-size: 1.7rem;
+}
+
+.social-icon {
+  list-style-type: none;
+}
+
+.brand {
+  fill: red;
+  max-width: 250px;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  top: 2vh;
+}
+
+.footer-logo {
+  width: 30vh;
+}
+
+.left-logo {
+  display: block;
+  position: relative;
+  color: #666;
+}
+
+.botom-footer-div {
+  padding-top: 3vh;
+  border-top: 1px solid #f4f5f6;
+  margin-top: 2vh;
+}
+
+.top-footer-div {
+  padding-bottom: 2vh;
+}
+
+.menu-list {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list-right {
+  display: inline-flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.menu-list a,
+.menu-list-right a {
+  border-right: 1px solid #d9d9d9;
+  padding-left: 1vh;
+  padding-right: 1vh;
+  color: #666;
+}
+
+.menu-list a:hover,
+.menu-list-right a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.editions-title {
+  color: #000;
+  font-weight: bold;
+}
+
+.footer-links-menu {
+  display: inline-flex;
+  width: 50%;
+}
+
+.right-footer-links-menu {
+  float: right;
+  text-align: end;
 }
