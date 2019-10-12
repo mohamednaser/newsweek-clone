@@ -83,10 +83,10 @@ header .row {
   width: 30%; }
 
 .top-story-fle-container {
-  width: 50%; }
+  width: 45%; }
 
 .opinion-flex-container {
-  width: 30%; }
+  width: 20%; }
 
 .featured-story-title {
   font-weight: bold;
@@ -139,7 +139,7 @@ header .row {
   margin-top: 3vh; }
 
 .culture-story {
-  max-width: 45%; }
+  width: 45%; }
 
 .tag-item {
   display: inline-block;
@@ -269,11 +269,11 @@ header .row {
 
 .editor-pick-story-item {
   margin-top: 1rem;
-  max-width: 22%; }
+  width: 22%; }
 
 .featured-slidshow-item {
   margin-top: 1rem;
-  max-width: 30%; }
+  width: 30%; }
 
 .featured-slidshow-item-title {
   width: 70px;
@@ -310,7 +310,8 @@ header .row {
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid #d9d9d9;
-  display: inline-flex; }
+  display: inline-flex;
+  height: 28%; }
 
 .us-main-div-img {
   max-width: 34%;
@@ -369,7 +370,8 @@ footer {
   margin-top: 5vh; }
 
 .right-social-icons {
-  float: right; }
+  float: right;
+  margin-right: 20vh; }
 
 .social-icons-list {
   display: flex; }
@@ -403,7 +405,7 @@ footer {
 
 .botom-footer-div {
   padding-top: 3vh;
-  border-top: 1px solid #f4f5f6;
+  border-top: 1px solid #d9d9d9;
   margin-top: 2vh; }
 
 .top-footer-div {
@@ -447,3 +449,41 @@ footer {
 .right-footer-links-menu {
   float: right;
   text-align: end; }
+
+@media (max-width: 990px) {
+  .featured-stories-flex-container,
+  .top-story-fle-container {
+    width: 50%; }
+  .latest-news-img {
+    width: 25%; }
+  .sign-up-form {
+    width: 50%;
+    margin: auto; }
+  .in-depth {
+    padding-top: 2vh; }
+  .editor-pick-story-item {
+    width: 49%; }
+  .subscribe-div {
+    height: 40vh; }
+  .subscribe-section,
+  .newsletter-section,
+  .opinion-flex-container,
+  .footer-links-menu {
+    width: 100%; }
+  .right-footer-links-menu {
+    float: none;
+    padding-top: 2vh;
+    text-align: start; }
+  .menu-list-right {
+    width: 90%; }
+  .right-social-icons {
+    margin-right: 0; } }
+
+@media (max-width: 765px) {
+  .featured-stories-flex-container,
+  .top-story-fle-container,
+  .culture-story,
+  .magazine-item,
+  .editor-pick-story-item,
+  .featured-slidshow-item {
+    width: 100%; } }
