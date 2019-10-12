@@ -1,6 +1,7 @@
 // General Rules
 body {
   background-color: #f4f5f6;
+  overflow: scroll;
 }
 
 .container {
@@ -26,6 +27,47 @@ body {
   font-family: "Roboto", sans-serif;
 }
 // start Header Section
+
+.sticky-header {
+  width: 100%;
+  height: 5vh;
+  background-color: red;
+  padding-bottom: 7vh;
+  display: none;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.menu-burger {
+  margin-right: 2vh;
+  margin-left: 2vh;
+  bottom: 0;
+  color: white;
+  vertical-align: middle;
+}
+
+.sticky-left-header {
+  width: 50%;
+  float: left;
+}
+
+.sticky-right-header {
+  width: 50%;
+  float: right;
+}
+
+.sticky-right-heade {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+
+.sticky-right-header-section {
+  float: right;
+  padding-top: 1.5vh;
+}
+
 .first-header-row {
   background-color: red;
 }
@@ -111,7 +153,7 @@ header .row {
 }
 
 .opinion-flex-container {
-  width: 20%;
+  width: 25%;
 }
 
 .featured-story-title {
@@ -363,6 +405,7 @@ header .row {
 }
 
 // Start Main U.S div Section
+
 .us-main-div {
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -370,17 +413,21 @@ header .row {
   border-top: 1px solid #d9d9d9;
 }
 
+.us-main-left-div {
+  width: 60%;
+}
+
 .us-main-div-container {
   display: inline-flex;
 }
 
 .us-main-right-div {
-  max-width: 60%;
+  width: 30%;
   margin-left: 2vh;
 }
 
 .us-main-colum-item {
-  max-width: 48%;
+  width: 48%;
 }
 
 .us-main-right-item {
@@ -402,7 +449,7 @@ header .row {
 
 .subscribe-div {
   background-color: #f4f5f6;
-  height: 57vh;
+  height: 35vh;
 }
 
 .newsletter-cover-image {
@@ -489,6 +536,12 @@ footer {
   max-width: 250px;
 }
 
+.stickyBrand {
+  fill: white;
+  max-width: 250px;
+  padding-left: 4%;
+}
+
 .copyright {
   display: inline-block;
   position: absolute;
@@ -503,6 +556,7 @@ footer {
   display: block;
   position: relative;
   color: #666;
+  padding-top: 1vh;
 }
 
 .botom-footer-div {
@@ -559,11 +613,20 @@ footer {
 .right-footer-links-menu {
   float: right;
   text-align: end;
+  width: 50%;
 }
 
 // Media Query For Meduim Screen
 
 @media (max-width: 990px) {
+  // header {
+  //   display: none;
+  // }
+
+  // #sticky-header {
+  //   display: block;
+  // }
+
   .featured-stories-flex-container,
   .top-story-fle-container {
     width: 50%;
@@ -618,7 +681,26 @@ footer {
   .culture-story,
   .magazine-item,
   .editor-pick-story-item,
-  .featured-slidshow-item {
+  .featured-slidshow-item,
+  .us-main-colum-item,
+  .us-main-colum-item,
+  .us-main-left-div {
     width: 100%;
+  }
+
+  .us-main-right-div {
+    width: 100%;
+    margin-left: 0;
+    padding-top: 5vh;
+    margin-top: 0;
+  }
+
+  .right-social-icons {
+    float: none;
+  }
+
+  .social-icons-list {
+    margin: 0;
+    padding: 0;
   }
 }
