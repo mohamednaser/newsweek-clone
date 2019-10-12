@@ -76,7 +76,8 @@ header .row {
   padding: 10px 0 10px 0;
 }
 
-.NewsWeekSVGLogo {
+.NewsWeekSVGLogo,
+.NewsWeekSVGLogo1 {
   fill: white;
 }
 
@@ -87,7 +88,7 @@ header .row {
   padding-left: 10%;
 }
 
-#right_arrow {
+.right_arrow {
   width: 9px;
   fill: red;
 }

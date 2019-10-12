@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+
 <html class="no-js" lang="en">
   <head>
     <title>Newsweek</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
     <link
       rel="icon"
       type="image/png"
@@ -64,7 +67,7 @@
           <span class="header-subscribe-button"
             >subscribe &nbsp;&nbsp;<svg
               version="1.1"
-              id="right_arrow"
+              class="right_arrow"
               class="NewsWeekSVGLogo"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -74,7 +77,7 @@
               style="enable-background:new 0 0 8 14;"
               xml:space="preserve"
             >
-              <g id="arrow-right">
+              <g id="arrow-right2">
                 <defs>
                   <rect id="SVGID_1_" width="8" height="14"></rect>
                 </defs>
@@ -100,13 +103,13 @@
       <header>
         <div class="row first-header-row">
           <div class="col-sm">
-            <date class="header-date">Thu, Oct 10, 2019</date>
+            <div class="header-date">Thu, Oct 10, 2019</div>
           </div>
           <div class="col-sm">
             <svg
               version="1.1"
               id="Layer_1"
-              class="NewsWeekSVGLogo"
+              class="NewsWeekSVGLogo1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
               x="0px"
@@ -129,7 +132,7 @@
               <span class="header-subscribe-button"
                 >subscribe &nbsp;&nbsp;<svg
                   version="1.1"
-                  id="right_arrow"
+                  class="right_arrow"
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
                   x="0px"
@@ -140,11 +143,11 @@
                 >
                   <g id="arrow-right">
                     <defs>
-                      <rect id="SVGID_1_" width="8" height="14"></rect>
+                      <rect id="SVGID_11_" width="8" height="14"></rect>
                     </defs>
                     <clipPath id="SVGID_2_">
                       <use
-                        xlink:href="#SVGID_1_"
+                        xlink:href="#SVGID_11_"
                         style="overflow:visible;"
                       ></use>
                     </clipPath>
@@ -1814,12 +1817,13 @@
     <script>
       window.onscroll = () => {
         if (document.body.clientWidth < 1000) {
-          document.getElementsByTagName("header").style.display="none";
+          document.getElementsByTagName("header").style.display = "none";
           document.getElementById("sticky-header").style.display = "block";
         } else {
           if (window.pageYOffset > 60)
             document.getElementById("sticky-header").style.display = "block";
-          else document.getElementById("sticky-header").style.display = "none";
+          else
+           document.getElementById("sticky-header").style.display = "none";
         }
       };
     </script>
